@@ -6,7 +6,7 @@
 <main class="wrap"><div id="auth"></div><div id="workspace" class="hidden"><div class="tabs"><button id="tab-learner" onclick="tab('learner')">Mine oppgaver</button><button id="tab-instructor" onclick="tab('instructor')">Instruktør</button><button id="tab-settings" onclick="tab('settings')">Oppsett</button></div><div id="notice" aria-live="polite"></div><div id="app"></div></div><p class="footer">Prototype 3 · Oppgaver, svar, bilder og vurderinger lagres i Supabase. Test med testkontoer før ekte lærlingdata brukes.</p></main>
 <script>
 'use strict';
-const URL='https://mrqpkkppyzdplibhwokl.supabase.co';
+const URL='https://mrqpkkppyz dplib hwokl.supabase.co';
 const KEY='sb_publishable_RrOD-I1Hhvdn8FcAfr1X8Q_PlVCo2Do';
 const db=window.supabase?.createClient(URL,KEY);
 let user=null,profile=null,days=[],submissions=[],photos=[],learners=[],enrollments=[],view='learner',selectedDay=null,selectedSubmission=null;
